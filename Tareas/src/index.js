@@ -25,7 +25,7 @@ app.use('/api',tasksRoutes);
 //static files-carpeta dist copiada de client angular
 app.use(express.static(path.join(__dirname,'dist/client')));
 
-//etatic server
+//static server
 app.listen(app.get('port'), ()=>{
     console.log('server en puerto', app.get('port'));
 });
